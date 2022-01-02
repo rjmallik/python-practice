@@ -20,11 +20,13 @@ randomlist=["cherry", "banana","apple", 12,49,"98"]
 for x in randomlist:
     print(x)
 """
-g= "plebian"
+g= ["plebian", "banana", "apple", "macbook", "computer"]
 for x in g:
-    print(x)
-    if x != "b":
-        break
+    
+    if x == "apple":
+        continue
+    else:
+        print(x)
 #print(x)
 
 #g="banana"
