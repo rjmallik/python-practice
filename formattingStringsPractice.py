@@ -6,7 +6,7 @@ print(myorder.format(quantity, itemno, price))
 
 
 age = 36
-name = "John"
+name = "Jo"
 txt = "His name is {1}. {1} is {0} years old."
 print(txt.format(age, name))
 
